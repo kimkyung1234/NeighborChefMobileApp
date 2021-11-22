@@ -2,7 +2,7 @@
     package="com.example.neighborchef">
    <application
         android:label="neighborchef"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/luncher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
