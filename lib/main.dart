@@ -1,6 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:neighborchef/widgets/menubar.dart';
-import 'package:neighborchef/widgets/menubar1.dart';
-import 'widgets/menubar.dart';
+import 'package:neighborchef/screen/startPage.dart';
 
 void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: StartPage(),
+    );
+  }
+}
