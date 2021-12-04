@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:neighborchef/screen/startPage.dart';
+import 'package:neighborchef/screen/startpage.dart';
 
 void main() => runApp(const MyApp());
 
