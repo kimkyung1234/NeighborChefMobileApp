@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../screen/myprofile.dart';
+import '../screen/myPage1.dart';
 
 class MenuBar extends StatelessWidget {
   const MenuBar({Key? key}) : super(key: key);
@@ -22,7 +22,7 @@ class MenuBar extends StatelessWidget {
           icon: Icon(Icons.account_circle),
           onPressed: () => {
             Navigator.push(
-                context, MaterialPageRoute(builder: (context) => MyProfile()))
+                context, MaterialPageRoute(builder: (context) => MyPage1()))
           },
           color: Colors.black,
         )
